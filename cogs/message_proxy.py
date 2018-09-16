@@ -41,7 +41,7 @@ class MessageProxy:
         pass
 
     # Commands
-    @commands.group(name="message", aliases=["msg"], pass_context=True, no_pm=True, invoke_without_command=True)
+    @commands.group(name="message", aliases=["msg", "say"], pass_context=True, no_pm=True, invoke_without_command=True)
     @checks.mod_or_permissions(manage_server=True)
     async def _messages(self, ctx):
         """Message proxy"""

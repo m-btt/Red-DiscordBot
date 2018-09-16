@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-discord.py == 0.10.0a0
-requests == 2.9.1
-youtube_dl == 2015.12.23
-beautifulsoup4 == 4.4.1
-=======
 pip
 git+git://github.com/Rapptz/discord.py.git#egg=discord.py[voice]
 youtube_dl
 imgurpython
->>>>>>> remotes/origin/develop
