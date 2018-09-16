@@ -527,10 +527,7 @@ class Downloader:
         return git_name[:-4]
 
     def is_lib_installed(self, name):
-        try:
-            return bool(find_spec(name))
-        except ImportError:
-            return False
+        return bool(find_spec(name))
 
     def _do_first_run(self):
         save = False
