@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -48,3 +49,17 @@ Temporary Items
 __pycache__
 json
 cache
+=======
+*.json
+*.pyc
+__pycache__
+data
+!data/trivia/*
+!data/audio/playlists/*
+*.exe
+*.dll
+start_red*
+start_launcher.sh
+start_launcher.command
+lib
+>>>>>>> remotes/origin/develop
